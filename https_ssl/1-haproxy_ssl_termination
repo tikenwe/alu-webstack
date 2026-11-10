@@ -31,4 +31,4 @@ frontend www-https
 backend web-backend
     balance roundrobin
     server 7290-web-01 18.169.188.227:80 check
-    server 7290-web-02 WEB02_IP:80 check
+    server 7290-web-02 3.8.237.116:80 check
